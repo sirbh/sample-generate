@@ -1,6 +1,6 @@
-# 📊 PhD Task – Synthetic Data Generation and Evaluation
+# 📊Task – Synthetic Data Generation and Evaluation
 
-This project is submitted in response to the PhD application task at BTH, Sweden. It demonstrates the generation, evaluation, and visualization of synthetic tabular data using modern Python tools.
+This project demonstrates the generation, evaluation, and visualization of synthetic tabular data.
 
 ---
 
