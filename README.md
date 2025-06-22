@@ -62,7 +62,7 @@ It is used as input for training the synthetic data generator.
 To generate evaluation plots and visualize column-wise or pair-wise distributions, run:
 
 ```bash
-python plot.py
+python plots.py
 ```
 
 This will help you visually compare the synthetic data with the original.
