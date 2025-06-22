@@ -43,21 +43,6 @@ quality_report = evaluate_quality(
 
 
 
-fig1 = get_column_plot(real_data=df, synthetic_data=synthetic_data, column_name='Category1', metadata=metadata)
-fig2 = get_column_plot(real_data=df, synthetic_data=synthetic_data, column_name='Value1', metadata=metadata)
-fig3 = get_column_plot(real_data=df, synthetic_data=synthetic_data, column_name='Value2', metadata=metadata)
-
-fig4 = get_column_pair_plot(real_data=df, synthetic_data=synthetic_data, column_names=['Value2', 'Category1'], metadata=metadata)
-fig5 = get_column_pair_plot(real_data=df, synthetic_data=synthetic_data, column_names=['Value1', 'Category1'], metadata=metadata)
-fig6 = get_column_pair_plot(real_data=df, synthetic_data=synthetic_data, column_names=['Value2', 'Value1'], metadata=metadata)
-
-# Display all plots
-fig1.show()
-fig2.show()
-fig3.show()         
-fig4.show()
-fig5.show()
-fig6.show()
     
 
 
